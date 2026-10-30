@@ -42,4 +42,36 @@ body {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     box-shadow: 3px 3px 10px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#loginform-content
+{
+    width: 85%;
+    
+
+}
+
+
+#welcome
+{
+    color:#9487FA ;
+    font-family: inter;
+    font-weight: 700;
+   
+}
+
+#signin-text
+{
+    font-family: inter;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+#dashboard-text
+{
+    
 }
