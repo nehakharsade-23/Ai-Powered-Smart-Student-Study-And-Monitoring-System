@@ -12,6 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #F8FAFC;
+    font-family:Arial, Helvetica, sans-serif;
 
 }
 
@@ -45,6 +46,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 25px;
 
 }
 
@@ -59,8 +61,9 @@ body {
 #welcome
 {
     color:#9487FA ;
-    font-family: inter;
     font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 8px;
    
 }
 
@@ -69,9 +72,130 @@ body {
     font-family: inter;
     font-weight: 800;
     font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 8px;
 }
 
 #dashboard-text
 {
+   color: #64748b; 
+   font-size: 15px;
+   margin-bottom: 25px;
+
+}
+
+
+form
+{
+    width: 100%;
+
+}
+
+#formcontent
+{
+    margin-bottom: 15px;
+
+}
+
+label
+{
+    display: block;
+    margin-bottom: 8px;
+    color: #344563;
+    font-size: 15px;
+    font-weight: bold;
+   
+
+}
+
+input[type="email"],
+input[type="password"]
+{
+    width: 100%;
+    height: 45px;
+    padding : 10px 15px;
+    background-color: #F8FAFC;
+    border: 1px solid #dce4f0;
+    border-radius: 12px;
+}
+
+.password-box
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.password-box a
+{
+    color: #4f36ff;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+
+
+}
+
+.remember
+{
+    display: flex;
+    margin-bottom: 15px;
+    gap: 5px;
     
+}
+
+.remember input
+{
+    width: 15px;
+    height: 15px;
+}
+
+.remember label
+{
+    color: #475569;
+    font-size:12px;
+    font-weight: normal;
+    margin: 0;
+
+}
+
+button
+{
+    width: 100%;
+    height: 45px;
+    border-radius: 12px;
+    border: none;
+    background-color: #4f36ff;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+button:hover
+{
+    background-color: hsl(247, 66%, 45%) ;
+}
+
+.lines
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 23px;
+
+}
+.lines span
+{
+    height: 1px;
+    flex: 1;
+    background-color: #e2e8f0;
+
+}
+.lines p
+{
+    color: #94a3b8;
+    font-size: 12px;
+    font-weight: bold;
+
 }
