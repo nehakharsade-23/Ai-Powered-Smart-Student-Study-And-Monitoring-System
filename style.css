@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #F8FAFC;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -22,7 +22,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#F8FAFC;
+    background-color: #F8FAFC;
 
 
 }
@@ -42,16 +42,14 @@ body {
 
 }
 
-.startingicon
-{
+.startingicon {
     display: flex;
     align-items: center;
     gap: 10px;
 
 }
 
-#nicon
-{
+#nicon {
     width: 45px;
     height: 45px;
     display: flex;
@@ -64,16 +62,14 @@ body {
 
 }
 
-.startingicon h3
-{
+.startingicon h3 {
     font-size: 20px;
     margin-bottom: 5px;
     margin-top: 8px;
 
 }
 
-.startingicon p
-{
+.startingicon p {
     margin-top: 0px;
     font-size: 12px;
     font-weight: bold;
@@ -81,8 +77,7 @@ body {
     letter-spacing: 1.5px;
 }
 
-.nlabel
-{
+.nlabel {
     width: fit-content;
     height: fit-content;
     display: flex;
@@ -97,46 +92,42 @@ body {
     font-size: 10px;
     font-weight: bold;
 
-    
+
 }
 
-#dot
-{
+#dot {
     width: 8px;
     height: 8px;
-     background-color: #72e5b9;
+    background-color: #72e5b9;
     border-radius: 50%;
 }
 
-.maintext
-{
-margin-top: 15px;
+.maintext {
+    margin-top: 15px;
 
 }
-.maintext h1
-{
-    color:white ;
+
+.maintext h1 {
+    color: white;
     font-size: 32px;
     font-weight: bold;
 
 }
 
-.maintext h1 span
-{
+.maintext h1 span {
     color: #55e6b0;
 
 
 }
-.maintext p
-{
+
+.maintext p {
     margin-top: 15px;
     color: #b8b8d8;
     font-size: 15px;
 }
 
-.girlimage
-{
-    flex: 1px;
+.girlimage {
+    flex: 1;
     position: relative;
     display: flex;
     align-items: center;
@@ -144,13 +135,105 @@ margin-top: 15px;
     min-height: 0%;
 
 }
-.girlimage img
-{
-width: 85%;
-height: auto;
-max-width: 360px;
+
+.girlimage img {
+    width: 85%;
+    height: auto;
+    max-width: 360px;
 
 }
+
+.weeklyfocus {
+    position:absolute;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    color: #ffffff;
+    background-color: rgba(66, 65, 112, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    top: 20%;
+    left: 9%;
+    width: fit-content; 
+    height: fit-content;
+}
+.weeklyfocus span{
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #55e6b0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.weeklyfocus p
+{
+    margin: 5px;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+
+}
+
+.weeklyfocus h3
+{
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+
+.focussession {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    color: #ffffff;
+    background-color: rgba(66, 65, 112, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    top: 45%;
+    right: 2%;
+
+}
+.focussession span {
+    width: 8px;
+    height: 8px;
+    background-color: #72e5b9;
+    border-radius: 50%;
+}
+.focussession h3
+{
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.focussession p
+{
+    margin: 5px;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+
+}
+
+.features
+{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    align-items: center;
+}
+.features span
+{
+    width: 8px;
+    height: 8px;
+    background-color: #72e5b9;
+    border-radius: 50%;
+}
+
 
 
 
@@ -168,25 +251,22 @@ max-width: 360px;
 
 }
 
-#loginform-content
-{
+#loginform-content {
     width: 85%;
-    
+
 
 }
 
 
-#welcome
-{
-    color:#9487FA ;
+#welcome {
+    color: #9487FA;
     font-weight: 700;
     margin-top: 0;
     margin-bottom: 8px;
-   
+
 }
 
-#signin-text
-{
+#signin-text {
     font-family: inter;
     font-weight: 800;
     font-size: 35px;
@@ -194,58 +274,51 @@ max-width: 360px;
     margin-bottom: 8px;
 }
 
-#dashboard-text
-{
-   color: #64748b; 
-   font-size: 15px;
-   margin-bottom: 25px;
+#dashboard-text {
+    color: #64748b;
+    font-size: 15px;
+    margin-bottom: 25px;
 
 }
 
 
-form
-{
+form {
     width: 100%;
 
 }
 
-#formcontent
-{
+#formcontent {
     margin-bottom: 15px;
 
 }
 
-label
-{
+label {
     display: block;
     margin-bottom: 8px;
     color: #344563;
     font-size: 15px;
     font-weight: bold;
-   
+
 
 }
 
 input[type="email"],
-input[type="password"]
-{
+input[type="password"] {
     width: 100%;
     height: 45px;
-    padding : 10px 15px;
+    padding: 10px 15px;
     background-color: #F8FAFC;
     border: 1px solid #dce4f0;
     border-radius: 12px;
 }
 
-.password-box
-{
+.password-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.password-box a
-{
+.password-box a {
     color: #4f36ff;
     font-size: 15px;
     font-weight: bold;
@@ -254,31 +327,27 @@ input[type="password"]
 
 }
 
-.remember
-{
+.remember {
     display: flex;
     margin-bottom: 15px;
     gap: 5px;
-    
+
 }
 
-.remember input
-{
+.remember input {
     width: 15px;
     height: 15px;
 }
 
-.remember label
-{
+.remember label {
     color: #475569;
-    font-size:15px;
+    font-size: 15px;
     font-weight: normal;
     margin: 0;
 
 }
 
-button
-{
+button {
     width: 100%;
     height: 45px;
     border-radius: 12px;
@@ -290,51 +359,46 @@ button
 
 }
 
-button:hover
-{
-    background-color: hsl(247, 66%, 45%) ;
+button:hover {
+    background-color: hsl(247, 66%, 45%);
 }
 
-.lines
-{
+.lines {
     display: flex;
     align-items: center;
     gap: 10px;
     margin-top: 23px;
 
 }
-.lines span
-{
+
+.lines span {
     height: 1px;
     flex: 1;
     background-color: #e2e8f0;
 
 }
-.lines p
-{
+
+.lines p {
     color: #94a3b8;
     font-size: 12px;
     font-weight: bold;
 
 }
 
-.account
-{
+.account {
     text-align: center;
-    color:#475569 ;
+    color: #475569;
     font-size: 16px;
 
 }
 
-.account a
-{
+.account a {
     color: #4f36ff;
     font-weight: bold;
     text-decoration: none;
 }
 
-.encrypt
-{
+.encrypt {
     text-align: center;
     font-size: 15px;
     color: #94a3b8;
