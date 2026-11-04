@@ -367,6 +367,13 @@ button {
 
 }
 
+button a
+{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
 button:hover {
     background-color: hsl(247, 66%, 45%);
 }
