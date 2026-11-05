@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/LoginPageStyle.css">
+    <link rel="stylesheet" href="../css/SignUpPageStyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
         integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -36,7 +36,7 @@
             </div>
 
             <div class="girlimage">
-                <img src="assets/Girl.png" alt="girlstudyimage">
+                <img src="../assets/Girl.png" alt="girlstudyimage">
                 <div class="weeklyfocus">
                     <span><i class="fa-solid fa-chart-simple"></i></span>
                     <div class="weeklytest">
@@ -67,57 +67,47 @@
         </div>
         <div id="rightbox">
             <div id="loginform-content">
-                <P id="welcome">WELCOME BACK</P>
+                <P id="Join">JOIN STUDYPILOT</P>
 
-                <P id="signin-text">Sign in to keep learning</P>
 
-                <p id="dashboard-text">Your study dashboard and next focus session are waiting.</p>
+                <P id="Create-text">Create your account</P>
+
+                <p id="SetUp-text">Set up your profile and make every study session count.</p>
 
                 <!-- login form -->
                 <form action="" method="get">
 
                     <div id="formcontent">
-                        <label for="email">Email address</label>
+                        <label for="name">Full Name</label>
+                        <input type="text" id="Name" placeholder="Enter your Full Name">
+                        
+                        <label for="password">Password</label>
+                        <input type="password" id="Password" placeholder="Enter your password">
 
-                        <input type="email" id="Email" placeholder="Enter your email">
+                        <label for="password">Create Password</label>
+                        <input type="password" id="Password" placeholder="Enter your password">
+
+                        <label for="password">Password</label>
+                        <input type="password" id="Password" placeholder="Enter your password">
 
 
-                    </div>
 
-                    <div id="formcontent">
-                        <div class="password-box">
 
-                            <label for="password">Password</label>
-
-                            <a href="#">Forget password?</a>
-
-                        </div>
 
                         <input type="password" id="Password" placeholder="Enter your password">
                     </div>
-                    <!-- keep me signed in to -->
-                    <div class="remember">
-                        <input type="checkbox">
-                        <label for="keepmesignedin"> keep me signed in</label>
-
-                    </div>
 
 
-                    
-                    <button><a href="../index.html">Sign in to dashboard →</a></button>
-                    
-                    <!-- lines -->
-                    <div class="lines">
-                        <span></span>
-                        <p>NEW TO STUDY PILOT?</p>
-                        <span></span>
+
+                    <button><a href="../index.html">Create Account →</a></button>
 
 
-                    </div>
+
+
 
                     <P class="account">
-                        Start buliding smarter study habits.
-                        <a href="#">Create a free account</a>
+                        Already have an account?
+                        <a href="#">Sign in</a>
 
                     </P>
 
