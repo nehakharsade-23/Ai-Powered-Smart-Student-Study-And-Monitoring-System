@@ -11,6 +11,9 @@ body {
 
 }
 
+.dash-box {
+    display: flex;
+}
 
 .leftbox {
     width: 300px;
@@ -45,7 +48,7 @@ body {
     color: #4f36ff;
     border-radius: 12px;
     font-size: 25px;
-    
+
 
 }
 
@@ -65,8 +68,7 @@ body {
 }
 
 
-.menu-item
-{
+.menu-item {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -75,9 +77,9 @@ body {
 
 
 }
+
 .menu-item a,
-.bottom-menu-item a
-{
+.bottom-menu-item a {
     display: flex;
     align-items: center;
     color: aliceblue;
@@ -87,11 +89,10 @@ body {
     gap: 15px;
     padding: 10px;
 
-    
+
 }
 
-.bottom-menu-item
-{
+.bottom-menu-item {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -103,30 +104,84 @@ body {
 
 }
 
-.menu-item a span
-{
+.menu-item a span {
     border-radius: 50%;
     height: 8px;
     width: 8px;
     background-color: #34d399;
     margin-left: auto;
 
-    
 
-    
+
+
 }
+
 .menu-item a:hover,
-.bottom-menu-item a:hover
-{
-   border-radius: 10px ;
-    background-color: #34315f;  
+.bottom-menu-item a:hover {
+    border-radius: 10px;
+    background-color: #34315f;
 }
 
 
 
-.active
-{
-     border-radius: 10px ;
-     background-color: #34315f;
-     
+.active {
+    border-radius: 10px;
+    background-color: #34315f;
+
+}
+
+
+.rightbox {
+    background-color: #ffffff;
+    color: #000000;
+    flex: 1;
+
+}
+
+.header-bar {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.ready-text h2 {
+    font-size: 20px;
+    padding-left: 22px;
+    margin-bottom: 5px;
+
+}
+
+.ready-text p {
+    margin: 0;
+    font-size: 12px;
+    padding-left: 22px;
+    color: #9f9fba;
+
+}
+
+.rightsidecontent {
+    display: flex;
+    align-items: center;
+}
+
+.searchbar {
+    width: 300px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+
+}
+
+.searchbar input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: black;
+    
+
 }
