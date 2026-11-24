@@ -138,17 +138,14 @@ body {
 
 
 }
- 
+
 .header-bar {
-    height: 75px;
+    height: 85px;
     width: 100%;
     background-color: white;
     display: flex;
     align-items: center;
     border-bottom: 1px solid #efeaf2;
-    
-    
-    
 }
 
 .ready-text h2 {
@@ -173,7 +170,7 @@ body {
     justify-content: end;
     padding-right: 30px;
     gap: 10px;
-         
+
 
 }
 
@@ -200,12 +197,11 @@ body {
     color: black;
     font-size: 12px;
     outline: none;
-    
+
 
 }
 
-.Notifications
-{
+.Notifications {
     height: 45px;
     width: 45px;
     border: 2px solid #e2e8f0;
@@ -214,74 +210,62 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color:#94a3b8;
-    
+    color: #94a3b8;
+
 }
 
 
-.student-profile
-{
+.student-profile {
     display: flex;
     align-items: center;
     gap: 10px;
-
-    
-    
 }
 
 
 
-.stu-name h2
-{
- font-size: 18px; 
- margin: 0; 
- margin-bottom: 3px;
-
-
+.stu-name h2 {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 3px;
 }
 
-.stu-name h4
-{
-  font-size: 12px;   
-  margin: 0;
-  color: #94a3b8;
-
-
-  
+.stu-name h4 {
+    font-size: 12px;
+    margin: 0;
+    color: #94a3b8;
 }
-.stu-name i{
+
+.stu-name i {
     color: #9483b8;
     font-size: 10px;
 }
-.student-initials
-{   
-    height:45px ;
+
+.student-initials {
+    height: 45px;
     width: 45px;
     border: 2px solid #e0e7ff;
     color: #4f46ef;
-    background-color:rgba(0, 0, 255, 0.2);
+    background-color: rgba(0, 0, 255, 0.2);
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    
+
 
 }
 
-.dashbaord-content
-{
-    padding: 30px;
+.dashbaord-content {
+    padding: 20px;
     background-color: #f8fafc;
-    height:100vh;
+    height: 100vh;
 
 }
 
-.status-box
-{
+.status-box {
     display: flex;
     gap: 15px;
-    margin-top: 30px;
+    margin-top:15px;
     flex: 1;
 
 }
@@ -289,15 +273,98 @@ body {
 .My-subjects,
 .Assignmentsbox,
 .exams,
-.Study-hours
-{
-    height:200px ;
+.Study-hours {
+    height: 200px;
     border-radius: 12px;
     background-color: white;
     box-shadow: 0px 5px 20px rgba(15, 23, 42, 0.05);
     padding: 15px;
-    
+    flex: 1;
 
+}
 
+.subject-icon,
+.Assignments-icon,
+.exams-icon,
+.Study-hours-icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
 
+}
+
+.subject-icon {
+    background-color: #eef2ff;
+    color: #5545ff;
+
+}
+
+.Assignments-icon {
+    background-color: #fff8e7;
+    color: #f59e08;
+}
+
+.exams-icon {
+    background-color:#fff0f3;
+    color: #f43f5e;
+}
+
+.Study-hours-icon {
+    background-color:#ecfdf5;
+    color: #10b981;
+}
+
+.My-subjects h4,
+.Assignmentsbox h4,
+.exams h4,
+.Study-hours h4{
+    font-size: 18px;
+    color: #334155;
+    margin-bottom:8px;
+    margin-top:0;
+}
+
+.My-subjects h2,
+.Assignmentsbox h2,
+.exams h2,
+.Study-hours h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom:15px;
+}
+
+.My-subjects p,
+.Assignmentsbox p,
+.exams p,
+.Study-hours p{
+    color:#94a3b8 ;
+    font-size:15px;
+    margin: 0;
+}
+
+.Analysis
+{
+    height:20px;
+    width:45px;
+    font-size:10px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color:#ecfdf5;
+    color: #10b981;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 13px;
+    right: 10px;
+
+}
+
+.Study-hours
+{
+    position: relative;
 }
