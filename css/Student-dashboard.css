@@ -376,7 +376,7 @@ body {
 
 .graph {
     margin-top: 25px;
-    height: 350px;
+    height: 400px;
     width: 60%;
     border-radius: 12px;
     box-shadow: 0px 5px 20px rgba(15, 23, 42, 0.05);
@@ -424,7 +424,7 @@ body {
 
 .tasks-box {
     margin-top: 25px;
-    height: 350px;
+    height: 400px;
     width: 40%;
     border-radius: 12px;
     box-shadow: 0px 5px 20px rgba(15, 23, 42, 0.05);
@@ -436,26 +436,31 @@ body {
 }
 
 .container {
-
-    display: grid;
-    grid-gap: 8px;
-   
-
-}
-
-.maths1,
-.physics1 ,
-.english1, 
-.chemistry1 
-{
-    background-color: whitesmoke;
-    border: 3px solid white;
-    border-radius: 12px;
+    flex: 1;
+    
     display: flex;
-    height: 60px;
-    
+    justify-content: center;
+    flex-direction: column;
+
 }
-    
+
+.maths,
+.physics,
+.english,
+.chemistry {
+    display: flex;
+    height: 55px;
+    width: 90%;
+    background-color: blue;
+    margin: 12px;
+    border-radius: 10px;
+
+}
+
+
+
+
+
 
 
 
