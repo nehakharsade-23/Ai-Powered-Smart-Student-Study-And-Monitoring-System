@@ -424,7 +424,7 @@ body {
 
 .tasks-box {
     margin-top: 25px;
-    height: 400px;
+    min-height: 350px;
     width: 40%;
     border-radius: 12px;
     box-shadow: 0px 5px 20px rgba(15, 23, 42, 0.05);
@@ -436,11 +436,13 @@ body {
 }
 
 .container {
-    flex: 1;
-    
+
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
 
 }
 
@@ -449,26 +451,110 @@ body {
 .english,
 .chemistry {
     display: flex;
+    align-items: center;
     height: 55px;
-    width: 90%;
-    background-color: blue;
-    margin: 12px;
+    width: 100%;
+    margin: 10px;
     border-radius: 10px;
+    border: 2px solid #edf1f6;
+    gap: 10px;
+    padding-left: 5px;
+
+}
+
+.maths span,
+.physics span,
+.english span,
+.chemistry span {
+    width: 4px;
+    height: 28px;
+    border-radius: 5px;
+
+
 
 }
 
 
+.blue {
+    background-color: #6652ff;
+}
+
+.green {
+    background-color: #00bd91;
+
+}
+
+.orange {
+    background-color: orange;
+}
+
+.red {
+    background-color: red;
+}
 
 
+.maths-text h2 {
+    margin: 0;
+    font-size: 15px;
+    color: #27364e;
+    margin-bottom: 3px;
 
 
+}
 
+.maths-text p {
+    margin: 0;
+    font-size: 12px;
+    color: #8ca0b8;
+    margin-top: 3px;
+}
 
+.checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    height: 20px;
+    width: 20px;
+    border: 2px solid #c6d4cf;
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input[type="checkbox"]:checked {
+    background-color: #55e6b0;
+}
+
+input[type="checkbox"]:checked::after {
+    color: white;
+    content: "✔";
+}
+
+.time-text {
+    font-size: 15px;
+    color: #8ca0b8;
+    gap: 5px;
+    margin-left: auto;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 
 .upper-task-text {
     display: flex;
+    padding-left: 10px;
 }
 
 .task-text h2 {
@@ -538,6 +624,7 @@ body {
 
 .upper-text h2 {
     color: white;
+    margin: 0;
     font-size: 15px;
     font-weight: bold;
     margin-bottom: 8px;
@@ -553,53 +640,72 @@ body {
 }
 
 .icon-box {
-    height: 40px;
-    width: 40px;
+    
+    height: 45px;
+    width: 45px;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 20px;
-    background-color: white;
+    font-size: 12px;
+    background-color: #30366c;
+    color: #32e6bd;
 }
 
 .top-text-box {
     display: flex;
-    align-items: center;
-    gap: 15px;
+    gap: 15px
+
 }
 
 .identities-box {
-    height: 120px;
-    border: 1px solid white;
-    background-color: #201d50;
-    border-radius: 10px;
-    padding: 10px;
-
+   border-radius: 12px;
+   border: 1px solid #41406d;
+   background-color: rgba(255, 255, 255, 0.05);
+   margin-top:12px ;
+   padding: 10px;
+   
+}
+.ai-upper-text-box
+{
+    padding: 5px;
+    
 
 }
 
-.ai-upper-text-box h2 {
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
+
+.ai-upper-text-box h2
+{
+    margin: 0;
+    font-size: 17px;
+    color: #ffffff;
+    margin-bottom: 10px;
+
+}
+.ai-upper-text-box p{
+    margin: 0;
+    font-size:12px;
+    color: #bdc5e9;
     margin-bottom: 8px;
+}
+
+.hint span
+{
+    height:8px;
+    width:8px ;
+    border-radius: 50%;
+    background-color:#ffd44c ;
+    
+}
+.hint 
+{
     display: flex;
-    margin-top: 9px;
-}
-
-.ai-upper-text-box p {
-    margin-top: 5px;
-    color: #9483b8;
-    font-size: 15px;
-    font-weight: bold;
-    margin-bottom: 3px;
-}
-
-.bottom-line-box {
-    margin-top: 12px;
-    color: #10b981;
-    font-size: 15px;
-    font-weight: bold;
-    margin-bottom: 3px;
+    background-color:rgba(255, 255 , 255, 0.1);
+    border-radius:8px;
+    height:30px;
+    padding:7px 9px ;
+    color:#ffd44c;
+    font-size:12px;
+    align-items: center;
+    gap: 10px;
 }
